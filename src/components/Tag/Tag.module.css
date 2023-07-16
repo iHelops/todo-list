@@ -1,0 +1,17 @@
+.tag {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    fill: white;
+    height: 28px;
+}
+
+.bordered {
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
+    color: var(--font-color);
+}
+
+.action:hover {
+    cursor: pointer;
+}

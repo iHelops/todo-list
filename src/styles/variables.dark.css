@@ -1,0 +1,7 @@
+[data-theme='dark'] {
+    --background-color: #0E0E0E;
+    --font-color: white;
+    --icon-color: white;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --gray-color: #8a8a8a;
+}

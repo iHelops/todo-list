@@ -1,0 +1,22 @@
+@import "variables.css";
+@import "variables.dark.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: all .15s;
+}
+
+.container {
+    max-width: 700px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

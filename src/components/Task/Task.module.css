@@ -1,0 +1,32 @@
+.task {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.number {
+    font-size: 20px;
+    color: #9f9f9f;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+    top: -14px;
+}
+
+.hoverBtn {
+    opacity: 0;
+    transition: opacity .15s;
+}
+
+.task:hover .hoverBtn {
+    opacity: 1;
+}

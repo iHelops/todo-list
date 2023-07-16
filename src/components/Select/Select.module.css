@@ -1,0 +1,11 @@
+.select {
+    padding: 10px 15px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
+    color: var(--font-color);
+    font-size: 14px;
+    transition: background .15s;
+    appearance: none;
+}

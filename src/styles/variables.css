@@ -1,0 +1,10 @@
+:root {
+    --background-color: white;
+    --font-color: black;
+    --icon-color: black;
+    --primary-color: #FF002E;
+    --hover-color: #E30027;
+    --active-color: #CF0025;
+    --border-color: rgba(0, 0, 0, 0.10);
+    --gray-color: #424242;
+}

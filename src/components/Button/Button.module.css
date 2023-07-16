@@ -1,0 +1,24 @@
+.button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: white;
+    background-color: var(--primary-color);
+    transition: background-color .15s;
+    white-space: nowrap;
+}
+
+.button:not(:disabled):hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+
+.button:not(:disabled):active {
+    background-color: var(--active-color);
+}
+
+.button[disabled] {
+    background: #838383;
+}
